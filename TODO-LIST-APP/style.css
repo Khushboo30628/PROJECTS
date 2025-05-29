@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(17, 17, 63);
+    font-family: sans-serif;
+}
+
+.outer {
+    background-color: gray;
+    height: 90vh;
+    width: 40vw;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    border: 2px solid white;
+
+}
+
+.inner {
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid rgb(17, 17, 63);
+
+}
+
+.inner #heading {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(38, 38, 92);
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+
+}
+
+.inner input {
+    height: 90%;
+    border: none;
+    margin-left: 10px;
+    font-size: large;
+}
+
+
+.inner #task {
+    width: 90%;
+    height: 10%;
+    border: 2px solid rgb(17, 17, 63);
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+
+#task-input {
+    color: rgb(17, 17, 63);
+}
+
+#task-input:focus {
+    outline: none;
+}
+
+
+#task-input::placeholder {
+    color: rgb(17, 17, 63);
+}
+
+
+.inner #task button {
+    height: 100%;
+    width: 20%;
+    background-color: rgb(38, 38, 92);
+    margin-left: 90px;
+    border: none;
+    border-left: 2px solid rgb(17, 17, 63);
+    border-radius: 5px;
+    color: rgb(17, 17, 63);
+    font-weight: bolder;
+    font-size: small;
+    color: white;
+
+}
+
+.inner #task button:hover {
+    background-color: grey;
+    color: rgb(17, 17, 63);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#addtask:hover {
+    cursor: pointer;
+}
+
+.flex {
+    height: 10%;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.inner .flex .one {
+    height: 90%;
+    width: 100%;
+    border: 2px solid rgb(17, 17, 63);
+    border-radius: 10px;
+    margin-left: 10px;
+    color: gray;
+    text-align: end;
+}
+
+.inner .flex .one i {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+
+.txtcolor {
+    color: rgb(17, 17, 63);
+}
+
+
